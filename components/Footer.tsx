@@ -5,7 +5,7 @@ import Link from "next/link";
 export const Footer = () => {
   return (
     <footer className=" flex flex-col bg-[#00142D] text-white justify-between font-normal font-sans text-[16px] ">
-      <div className="flex gap-4 py-20 md:pb-0 px-12 flex-wrap justify-evenly items-start">
+      <div className="flex gap-4 py-20 px-12 flex-wrap justify-evenly items-start">
         <div id="logo-section-footer" className=" flex flex-col gap-4">
           <Image src="logo.svg" width={100} height={60} alt="logo" />
           <p>
@@ -247,25 +247,6 @@ export const Footer = () => {
           </div>
         </div>
       </div>
-      <svg
-        className=" md:block hidden"
-        width="1920"
-        height="296"
-        viewBox="0 0 1920 296"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          d="M365 128C174.6 88 42 208 0 296H108H1920V27C1920 17.6666 1907 28.4 1763 142C1619 255.6 1426 195.5 1371 182C1336 173.409 1144.2 84.7999 901 128C597 182 603 178 365 128Z"
-          fill="white"
-          fill-opacity="0.04"
-        />
-        <path
-          d="M247.5 92.4996C150.633 81.5478 -0.000106842 59.9998 -0.000106842 59.9998L-0.000128811 296L1920 296L1920 6.99979C1920 6.99979 1827.47 70.7044 1763 102C1558.19 201.424 1414.65 188.535 1187 192C967.548 195.341 847.404 146.691 629 125.004C480.207 110.229 396.078 109.298 247.5 92.4996Z"
-          fill="white"
-          fill-opacity="0.04"
-        />
-      </svg>{" "}
     </footer>
   );
 };
