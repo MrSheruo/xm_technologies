@@ -1,3 +1,7 @@
+import { ImagesGallery } from "@/components/ImagesGallery";
+import { OurServicesComponent } from "@/components/OurServicesComponent";
+import { Testimonials } from "@/components/Testimonials";
+import { SubHeading } from "@/components/subcomponents/SubHeading";
 import { Button } from "@/components/ui/button";
 import { howItIs } from "@/consts";
 import Image from "next/image";
@@ -79,36 +83,17 @@ export default function Home() {
             height={60}
           />
         </div>
-        <div id="how-is-it-going" className="flex flex-col gap-4 my-4">
-          <div className="flex flex-col justify-center items-center mb-4 gap-8">
-            <h3 className="relative  font-black w-fit text-[32px]">
-              How it is going?
-              <span className=" absolute right-[-25px] top-[10px]">
-                <svg
-                  width="44"
-                  height="40"
-                  viewBox="0 0 44 40"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <circle
-                    cx="20"
-                    cy="20"
-                    r="20"
-                    fill="#0669F7"
-                    fill-opacity="0.15"
-                  />
-                  <circle cx="40" cy="20" r="4" fill="#0669F7" />
-                </svg>
-              </span>
-            </h3>
-            <p className=" text-center">
-              We offer professional web design services at affordable rates to
-              help your <br /> business attract more visitors and keep them on
-              your site!
-            </p>
-          </div>
-          <div className="flex flex-wrap justify-center items-start gap-12 mb-8">
+        <div
+          id="how-is-it-going"
+          className=" flex-col items-center justify-center gap-8 md:flex hidden"
+        >
+          <SubHeading
+            heading="How it is going?"
+            body=" We offer professional web design services at affordable rates to
+            help your business attract more visitors and keep them on
+            your site!"
+          />
+          <div className="flex flex-wrap justify-center items-center gap-12 mb-8">
             {howItIs.map((card) => {
               const { title, number, body } = card;
               return (
@@ -127,6 +112,9 @@ export default function Home() {
             })}
           </div>
         </div>
+        <OurServicesComponent />
+        <ImagesGallery type="home" />
+        <Testimonials/>
       </section>
     </>
   );

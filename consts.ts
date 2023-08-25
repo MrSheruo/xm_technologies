@@ -49,3 +49,81 @@ export const howItIs = [
     number: "05",
   },
 ];
+
+export const servicesCategory = [
+  {
+    icon: "/web.svg",
+    title: "Web Development",
+    body: `Online impressions take time. It's exactly what you need. We build your dream website using Node, Angular, PHP, and Laravel.`,
+  },
+  {
+    icon: "/digital.svg",
+    title: "Digital Marketing",
+    body: `By utilizing social media and paid advertising, we help small and medium businesses succeed online.`,
+  },
+  {
+    icon: "/application.svg",
+    title: "Application Development",
+    body: `React Native, Flutter, Native Android, Native iOS. Our team thrives on methodological and technical challenges.`,
+  },
+  {
+    icon: "/web.svg",
+    title: "Web Development",
+    body: `Online impressions take time. It's exactly what you need. We build your dream website using Node, Angular, PHP, and Laravel.`,
+  },
+  {
+    icon: "/digital.svg",
+    title: "Digital Marketing",
+    body: `By utilizing social media and paid advertising, we help small and medium businesses succeed online.`,
+  },
+  {
+    icon: "/application.svg",
+    title: "Application Development",
+    body: `React Native, Flutter, Native Android, Native iOS. Our team thrives on methodological and technical challenges.`,
+  },
+  {
+    icon: "/digital.svg",
+    title: "Digital Marketing",
+    body: `By utilizing social media and paid advertising, we help small and medium businesses succeed online.`,
+  },
+];
+
+export const imageGalleryImages = [
+  { imageOne: "/img1.svg", ImageTwo: "/img2.svg", ImageThree: "/img3.svg" },
+  { imageOne: "/img1.svg", ImageTwo: "/img2.svg", ImageThree: "/img3.svg" },
+  { imageOne: "/img1.svg", ImageTwo: "/img2.svg", ImageThree: "/img3.svg" },
+  { imageOne: "/img1.svg", ImageTwo: "/img2.svg", ImageThree: "/img3.svg" },
+];
+
+export const testimonials = [
+  {
+    img: "https://picsum.photos/200",
+    name: "Ahmed Yasser",
+    company: "Meta",
+    body: `Can say about these guys only good 
+  words. After we build a website the 
+  customer's flow is quite stable and our 
+  SEO results growing. `,
+    rate: "/rate.svg",
+  },
+  {
+    img: "https://picsum.photos/200",
+    name: "Ahmed Yasser",
+    company: "Meta",
+    body: `Can say about these guys only good 
+  words. After we build a website the 
+  customer's flow is quite stable and our 
+  SEO results growing. `,
+    rate: "/rate.svg",
+  },
+  {
+    img: "https://picsum.photos/200",
+    name: "Ahmed Yasser",
+    company: "Meta",
+    body: `Can say about these guys only good 
+  words. After we build a website the 
+  customer's flow is quite stable and our 
+  SEO results growing. `,
+    rate: "/rate.svg",
+  },
+];
