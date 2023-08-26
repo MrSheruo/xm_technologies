@@ -1,10 +1,9 @@
 export const footerConstants = {
   navigation: [
     { label: "Home", link: "/" },
-    { label: "About Us", link: "/about-us" },
+    { label: "About Us", link: "/about" },
     { label: "Services", link: "/services" },
     { label: "Portfolio", link: "/portfolio" },
-    { label: "Jobs", link: "/jobs" },
     { label: "Contact Us", link: "/contact-us" },
   ],
   services: [

@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 const StillQuestion = () => {
   return (
     <>
-      <section className="everyFlex mb-12 bg-[#eee] max-w-7xl m-auto">
+      <section className="everyFlex mb-12 bg-[#eee] max-w-7xl m-auto py-8">
         <SubHeading
           heading="Send Message?"
           body="We’re ready to answer your questions and jump start your project"

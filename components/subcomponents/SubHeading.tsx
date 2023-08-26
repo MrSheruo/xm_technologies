@@ -1,12 +1,12 @@
-type Props = {
+interface Props {
   heading: String;
-  body: String;
-};
+  body: String | null;
+}
 
 export const SubHeading = ({ heading, body }: Props) => {
   return (
     <>
-      <h3 className="relative font-black w-fit text-[32px]">
+      <h3 className="relative font-black w-fit text-[32px] m-auto">
         {heading}
         <span className=" absolute right-[-25px] top-[10px]">
           <svg

@@ -11,7 +11,7 @@ export default function ServicesPage() {
   return (
     <>
       <header className="relative w-full mb-12">
-        <div className="absolute inset-0 bg-[url(/services-header-img.jpg)] bg-center bg-cover bg-no-repeat"></div>
+        <div className="absolute inset-0 bg-[url(/services-header-img.jpg)] bg-fixed bg-center bg-cover bg-no-repeat"></div>
         <div className="absolute inset-0 bg-black opacity-50"></div>
         <div className="max-w-7xl m-auto flex flex-col gap-8 text-white z-30 relative sm:py-44 sm:pl-20 py-4 pl-4">
           <h1 className="font-bold text-[32px]">
