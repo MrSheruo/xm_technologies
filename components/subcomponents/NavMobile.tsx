@@ -28,7 +28,7 @@ export const NavMobile = () => {
             />
           </svg>
 
-          <section className=" absolute top-0 bottom-0 left-0 w-[75%] h-full bg-[#00142D] flex flex-col gap-4 pl-4 pt-4  text-white">
+          <section className=" absolute top-0 bottom-0 left-0 w-[75%] h-full bg-[#00142D] z-[10000000] flex flex-col gap-4 pl-4 pt-4  text-white">
             <Image
               alt="logo"
               src="/logo.svg"

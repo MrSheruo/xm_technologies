@@ -6,7 +6,7 @@ export const Testimonials = () => {
   return (
     <section className="everyFlex ">
       <SubHeading heading="Testimonials" body="What our Customers are Saying" />
-      <div className="flex gap-8 flex-wrap justify-center items-center mt-12">
+      <div className="flex gap-16 flex-wrap justify-center items-center mt-12">
         {testimonials.map((testimonial, index) => {
           const { img, name, company, body, rate } = testimonial;
           return (
@@ -21,7 +21,7 @@ export const Testimonials = () => {
                 alt="client-image"
                 className=" rounded-full absolute left-[50%] translate-x-[-50%] top-[-40px]"
               />
-              <h4 className=" mt-24 font-extrabold">{name}</h4>
+              <h4 className=" mt-16 font-extrabold">{name}</h4>
               <p className="mt-2 text-xs">{company}</p>
               <p className=" my-4 max-w-[50ch] w-fit px-4 text-center">
                 {body}

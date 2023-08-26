@@ -10,7 +10,7 @@ type Props = {
 
 export const ImagesGallery = ({ type }: Props) => {
   return (
-    <section className="everyFlex bg-[#00142D] md:max-w-7xl w-full text-white py-8">
+    <section className="everyFlex bg-[#00142D] w-full text-white py-8">
       <SubHeading
         heading="Our Work"
         body="A variety of creative capabilities under one roof"
@@ -53,7 +53,7 @@ export const ImagesGallery = ({ type }: Props) => {
           <Link href="/portfolio">Get Started</Link>
         </Button>
       ) : (
-        <p className=" text-center text-xl mt-16">
+        <p className=" text-center text-2xl mt-16">
           Intelligent Websites That Work Overtime <br />
           For Marketing Results
         </p>

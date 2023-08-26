@@ -127,3 +127,54 @@ export const testimonials = [
     rate: "/rate.svg",
   },
 ];
+
+export const productsArray = [
+  {
+    name: "p1",
+    link: "/portfolio/p1",
+    img: "/img1.svg",
+    title: "XM Store",
+    body: `Lorem ipsum dolor sit amet consectetur adipisicing elit. In nisi perferendis placeat unde rem, enim ipsum saepe earum quaerat, excepturi animi! Dolor magni possimus error. Dolor exercitationem aut in? Earum.`,
+    type: "UI & UX Design",
+  },
+  {
+    name: "p2",
+    link: "/portfolio/p2",
+    img: "/img3.svg",
+    title: "XM Store",
+    body: `Lorem ipsum dolor sit amet consectetur adipisicing elit. In nisi perferendis placeat unde rem, enim ipsum saepe earum quaerat, excepturi animi! Dolor magni possimus error. Dolor exercitationem aut in? Earum.`,
+    type: "UI & UX Design",
+  },
+  {
+    name: "p5",
+    link: "/portfolio/p5",
+    img: "/img2.svg",
+    title: "XM Store",
+    body: `Lorem ipsum dolor sit amet consectetur adipisicing elit. In nisi perferendis placeat unde rem, enim ipsum saepe earum quaerat, excepturi animi! Dolor magni possimus error. Dolor exercitationem aut in? Earum.`,
+    type: "UI & UX Design",
+  },
+  {
+    name: "p3",
+    link: "/portfolio/p3",
+    img: "/img2.svg",
+    title: "XM Store",
+    body: `Lorem ipsum dolor sit amet consectetur adipisicing elit. In nisi perferendis placeat unde rem, enim ipsum saepe earum quaerat, excepturi animi! Dolor magni possimus error. Dolor exercitationem aut in? Earum.`,
+    type: "UI & UX Design",
+  },
+  {
+    name: "p4",
+    link: "/portfolio/p4",
+    img: "/img1.svg",
+    title: "XM Store",
+    body: `Lorem ipsum dolor sit amet consectetur adipisicing elit. In nisi perferendis placeat unde rem, enim ipsum saepe earum quaerat, excepturi animi! Dolor magni possimus error. Dolor exercitationem aut in? Earum.`,
+    type: "UI & UX Design",
+  },
+  {
+    name: "p6",
+    link: "/portfolio/p6",
+    img: "/img2.svg",
+    title: "XM Store",
+    body: `Lorem ipsum dolor sit amet consectetur adipisicing elit. In nisi perferendis placeat unde rem, enim ipsum saepe earum quaerat, excepturi animi! Dolor magni possimus error. Dolor exercitationem aut in? Earum.`,
+    type: "UI & UX Design",
+  },
+];
