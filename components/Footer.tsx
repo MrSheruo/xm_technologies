@@ -154,8 +154,8 @@ export const Footer = () => {
         <div id="services-footer" className="flex flex-col gap-4">
           <p className="  font-bold text-3xl text-[#197FFC]">Services</p>
 
-          {footerConstants.services.map((service) => (
-            <p>{service}</p>
+          {footerConstants.services.map((service, index) => (
+            <p key={index}>{service}</p>
           ))}
         </div>
         <div id="services-footer" className="flex flex-col gap-4">
