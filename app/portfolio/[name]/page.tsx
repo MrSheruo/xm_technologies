@@ -1,5 +1,7 @@
+import { Button } from "@/components/ui/button";
 import { productsArray } from "@/consts";
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 const page = ({ params }: { params: { name: string } }) => {
@@ -10,7 +12,7 @@ const page = ({ params }: { params: { name: string } }) => {
   console.log(product);
 
   return (
-    <section className="everyFlex p-4 my-8 text-center sm:flex-row">
+    <section className="everyFlex p-4 my-8 text-center sm:flex-row max-w-7xl m-auto">
       <Image
         src={img}
         height={580}
@@ -18,10 +20,13 @@ const page = ({ params }: { params: { name: string } }) => {
         alt="Product-Image"
         className=""
       />
-      <div className="everyFlex px-24 gap-4">
+      <div className="everyFlex gap-4">
         <h1 className=" text-3xl font-bold">{title}</h1>
         <h3 className=" font-light">{type}</h3>
-        <p className=" w-50">{body}</p>
+        <p className="">{body}</p>
+        <Button className=" w-fit p-6 bg-[#0669F7] hover:bg-[#345f9c] ">
+          <Link href="/contact-us">Buy This Service</Link>
+        </Button>
       </div>
     </section>
   );
