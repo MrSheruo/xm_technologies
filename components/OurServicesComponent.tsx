@@ -17,6 +17,7 @@ export const OurServicesComponent = () => {
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 max-w-7xl m-auto ">
         {servicesCategory.map((card, index) => (
           <div
+            key={index}
             className={`border p-12 ${
               index % 3 === 2 ? "sm:col-span-2 md:col-span-1" : ""
             }`}

@@ -43,13 +43,14 @@ const PortfolioPage = () => {
       </section>
       <section className=" text-white w-full p-24 bg-[#0669F7] flex flex-col justify-center items-center text-center">
         <h2 className=" text-[55px] leading-[69.57px] font-bold">
-          Let's make something <br /> amazing together.
+          Let&apos;s make something <br /> amazing together.
         </h2>
         <p className="px-24 py-12">
           Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s.
+          industry. Lorem Ipsum has been the industry&apos;s standard dummy text
+          ever since the 1500s.
         </p>
+
         <Button
           className=" w-fit px-4 text-[20px] leading-[25.3px] font-bold"
           variant={"outline"}

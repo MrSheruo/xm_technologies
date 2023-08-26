@@ -33,7 +33,7 @@ export default function ServicesPage() {
           <div className="flex flex-col gap-4 w-fit">
             <h4 className="text-[#0669F7]">THE HUMAN ELEMENT</h4>
             <h2 className=" font-bold text-[40px] leading-[50px]">
-              What's our secret?
+              What&apos;s our secret?
               <br />
               Great people.
             </h2>

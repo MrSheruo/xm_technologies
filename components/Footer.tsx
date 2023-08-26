@@ -145,8 +145,8 @@ export const Footer = () => {
         </div>
         <div id="navigations-footer" className="flex flex-col gap-4">
           <p className=" font-bold text-3xl text-[#197FFC]">Navigations</p>
-          {footerConstants.navigation.map((link) => (
-            <Link href={link.link} className="hover:text-[#197FFC]">
+          {footerConstants.navigation.map((link, index) => (
+            <Link key={index} href={link.link} className="hover:text-[#197FFC]">
               {link.label}
             </Link>
           ))}

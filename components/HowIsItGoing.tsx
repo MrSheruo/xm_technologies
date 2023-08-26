@@ -15,10 +15,13 @@ export const HowIsItGoing = () => {
             your site!"
       />
       <div className="flex flex-wrap justify-center items-center gap-12 mb-8">
-        {howItIs.map((card) => {
+        {howItIs.map((card, index) => {
           const { title, number, body } = card;
           return (
-            <div className="mb-8 relative before:absolute before:bottom-[-10px] before:w-4/12 before:border-2 before:border-[#C4C4C480] ">
+            <div
+              key={index}
+              className="mb-8 relative before:absolute before:bottom-[-10px] before:w-4/12 before:border-2 before:border-[#C4C4C480] "
+            >
               <h3 className=" mb-4 font-bold text-[20px] leading-[25px]">
                 {title}
               </h3>
